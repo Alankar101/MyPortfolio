@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alankar Jadhav | Cloud & DevOps Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Alankar Tatyasaheb Jadhav - aspiring Cloud and DevOps engineer with hands-on AWS project experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4HGOcA8lGOfvlaHztZNhx0V4k6W0jA9YQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-blur blur-1"></div>
+    <div class="bg-blur blur-2"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#home">AJ</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <p class="badge"><i class="fa-solid fa-cloud"></i> Cloud / DevOps Aspirant</p>
+        <h1>Alankar Tatyasaheb Jadhav</h1>
+        <p class="hero-text">
+          I build secure, scalable, and reliable cloud infrastructure on AWS with a strong focus on deployment automation,
+          monitoring, and modern DevOps workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-rocket"></i> View Projects</a>
+          <a class="btn btn-secondary" href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <div class="quick-info">
+          <a href="mailto:jadhavalankar639@gmail.com"><i class="fa-solid fa-envelope"></i>jadhavalankar639@gmail.com</a>
+          <a href="tel:+918767344211"><i class="fa-solid fa-phone"></i>+91 8767344211</a>
+          <a href="https://github.com/Alankar101" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-github"></i>github.com/Alankar101</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <h2>Career Objective</h2>
+        <p>
+          Aspiring Cloud / DevOps student with hands-on experience in AWS cloud infrastructure, CI/CD basics, monitoring,
+          and automation. Seeking an entry-level role to contribute to cloud operations, infrastructure automation, and
+          deployment workflows while continuously learning DevOps best practices.
+        </p>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2>Core Skills</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3><i class="fa-brands fa-aws"></i> Cloud Technologies</h3>
+            <p>AWS (EC2, S3, RDS, IAM, VPC, CloudWatch, Auto Scaling)</p>
+          </article>
+          <article class="card">
+            <h3><i class="fa-solid fa-shield-halved"></i> Networking & Security</h3>
+            <p>VPC, Subnets, IGW, NAT Gateway, Load Balancers, Firewalls, IAM, Security Groups, NACLs, MFA</p>
+          </article>
+          <article class="card">
+            <h3><i class="fa-solid fa-database"></i> Database Management</h3>
+            <p>MariaDB, Amazon RDS, Amazon DynamoDB</p>
+          </article>
+          <article class="card">
+            <h3><i class="fa-solid fa-code-branch"></i> DevOps & CI/CD</h3>
+            <p>Git, GitHub, Jenkins, AWS CLI, Basic CI/CD concepts</p>
+          </article>
+          <article class="card">
+            <h3><i class="fa-solid fa-chart-line"></i> Deployment & Monitoring</h3>
+            <p>EC2 instance setup, application hosting, AWS CLI, log management</p>
+          </article>
+          <article class="card">
+            <h3><i class="fa-solid fa-terminal"></i> Scripting & Automation</h3>
+            <p>Python (basic automation), Shell scripting (basics)</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <h2>Featured Projects</h2>
+        <div class="grid project-grid">
+          <article class="project">
+            <h3>Deploying Three-Tier Architecture on AWS</h3>
+            <p class="project-tech">EC2 · ELB · Auto Scaling · VPC · RDS</p>
+            <ul>
+              <li>Deployed jump server and app server on EC2 with RDS (MySQL) backend.</li>
+              <li>Configured public/private subnets, IGW, NAT Gateway, and route tables.</li>
+              <li>Integrated ELB for traffic distribution and enabled Auto Scaling for high availability.</li>
+              <li>Secured infrastructure using security groups for controlled access.</li>
+            </ul>
+          </article>
+          <article class="project">
+            <h3>AWS Infrastructure for E-Commerce Application</h3>
+            <p class="project-tech">EC2 · S3 · RDS · IAM · VPC · SNS</p>
+            <ul>
+              <li>Built and managed VPC architecture with public/private subnets and availability zones.</li>
+              <li>Created and maintained RDS MySQL backups/read replicas and EBS snapshots.</li>
+              <li>Configured S3 bucket lifecycle policies for static content and archival workflows.</li>
+              <li>Set up IAM roles/users/groups with MFA, ELB, and Auto Scaling for secure resiliency.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>Swami Ramanand Teerth Marathwada University, Nanded</p>
+            <p><strong>CGPA:</strong> 8.82 | <strong>Duration:</strong> 2022 – 2025</p>
+          </article>
+          <article>
+            <h3>Secondary School (SSC), Maharashtra State Board</h3>
+            <p><strong>Percentage:</strong> 80.0% | <strong>Duration:</strong> 2019 – 2020</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <h2>Let's Connect</h2>
+        <p>I'm open to internships and entry-level opportunities in Cloud and DevOps roles.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:jadhavalankar639@gmail.com"><i class="fa-solid fa-envelope"></i>Email Me</a>
+          <a class="btn btn-secondary" href="https://github.com/Alankar101" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-github"></i>GitHub Profile</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Alankar Tatyasaheb Jadhav. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
